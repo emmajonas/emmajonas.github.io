@@ -1,0 +1,41 @@
+#mine {
+    background-color: #000070;
+    color: white;
+    position: relative;
+    z-index: 90;
+    height: 100vh;
+    padding-top: 27vh;
+    padding-bottom: 42vh;
+}
+
+#contact h1 {
+    margin: 50px;
+    text-align: center;
+}
+
+.links {
+    text-align: center;
+}
+
+.links h5 {
+    display: inline-block;
+    margin: 10px;
+}
+
+.links a {
+    color: white;
+    transition: 0.3s ease;
+}
+
+.links a:hover {
+    color: white;
+    transition: 0.3s ease;
+    text-decoration: none;
+    border-bottom: #EA215A 0.1em solid;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+}

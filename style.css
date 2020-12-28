@@ -30,8 +30,9 @@
 .links a:hover {
     color: white;
     transition: 0.3s ease;
-    text-decoration: none;
-    border-bottom: #EA215A 0.1em solid;
+    text-decoration-color: #EA215A;
+    text-decoration-thickness: 0.1em;
+    text-underline-offset: 1px;
 }
 
 footer {

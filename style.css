@@ -6,6 +6,7 @@
     background-image: url(background/transparent.png), url(background/transparent_rotate.png);
     background-size: 100%;
     background-repeat: no-repeat;
+    background-position: right top, left bottom;
 }
 
 #contact {

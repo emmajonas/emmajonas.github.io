@@ -1,7 +1,9 @@
 #mine {
     background-color: #000050;
     color: white;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
     background-image: url(background/transparent.png), url(background/transparent_rotate.png);
     background-size: 100%;
@@ -9,15 +11,17 @@
     background-position: right top, left bottom;
 }
 
-#contact {
-    position: relative;
-    top: 40%;
-}
-
 #contact h1 {
-    text-align: center;
-    vertical-align: middle;
-    text-shadow: 2px -2px 0px #EA215A;
+  margin: 0;
+  color: transparent;
+  background: -webkit-linear-gradient(
+    -90deg,
+    #000050 50%,
+    rgba(255, 255, 255, 1) 53%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #fff;
 }
 
 .links {

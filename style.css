@@ -2,15 +2,21 @@
     background-color: #000050;
     color: white;
     position: relative;
-    z-index: 90;
     height: 100vh;
-    padding-top: 27vh;
-    padding-bottom: 42vh;
+    background-image: url(background/transparent.png), url(background/transparent_rotate.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#contact {
+    position: relative;
+    top: 40%;
 }
 
 #contact h1 {
-    margin: 50px;
     text-align: center;
+    vertical-align: middle;
+    text-shadow: 2px -2px 0px #EA215A;
 }
 
 .links {
@@ -24,12 +30,12 @@
 
 .links a {
     color: white;
-    transition: 0.3s ease;
+/*    transition: 0.3s ease;*/
 }
 
 .links a:hover {
     color: white;
-    transition: 0.3s ease;
+/*    transition: 0.3s ease;*/
     text-decoration-color: #EA215A;
     text-decoration-thickness: 0.1em;
     text-underline-offset: 1px;

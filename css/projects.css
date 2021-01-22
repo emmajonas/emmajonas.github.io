@@ -1,0 +1,31 @@
+.content {
+    margin: 0px 30px 30px 30px;
+}
+
+.content h3 {
+    margin: 10px 0px 20px 0px;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 1rem;
+}
+
+.project {
+    padding: 20px 10px 10px 10px;
+}
+
+.project img {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    transition: 0.3s ease;
+    border-radius: 20px;
+    width: 90%;
+}
+
+.project img:hover {
+    box-shadow: 1px 1px 15px;
+    transition: 0.3s ease;
+    color: var(--lightgrey);
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <link rel="icon" href="pics/favicon.png">
+        
+<!--        bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        
+            
+<!--        my css -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/aboutme.css">
+        <link rel="stylesheet" type="text/css" href="css/projects.css">
+
+<!-- font -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet"> 
+        
+<!-- my javascript -->
+        
+        <title>
+            Emma Jonas
+        </title>
+        
+    </head>
+    
+    <body>
+<!--        <div class="content">-->
+            <div id="navigation">
+                <div class="navbar">
+                    <h1><a href="index.html">Emma Jonas</a></h1>
+                </div>
+
+                <div id="myNav">
+                    <a href="aboutme.html" role="button" class="btn btn-outline-light">About Me</a>
+                    <a href="projects.html" role="button" class="btn btn-outline-light">Projects</a>
+                    <a href="fitness.html" role="button" class="btn btn-outline-light">Fitness</a>
+                    <a href="art.html" role="button" class="btn btn-outline-light">Art</a>
+                </div>
+            </div>
+
+            <div class="content">
+                <h3>Projects</h3>
+                <div class="project-container">
+                    
+                    <div class="project">
+                        <h4>Space Defender 2</h4>
+                        <p>Using Eiffel (unfortunately), I coded a complex game where a Starfighter must protect the galaxy by destroying enemy ships for as long as possible.</p>
+                        
+                        <p>This was a project for my Software Design class, EECS 3311. I used multiple design patterns such as the state pattern, the singleton pattern, and the composite pattern. I also used draw.io to make a detailed architecture diagram.</p>
+                            
+                        <p>While several tears were shed trying to complete this, I ended up passing all but one acceptance test and earned a 99.5% on the coding portion of the project.</p>
+                        <a href="https://github.com/emmajonas" target="_blank"><img src="pics/archdiagram.png" alt="architecture diagram"></a>
+                    </div>
+                    
+                    <div class="project">
+                        <h4>Fridge Sensor</h4>
+                        <p>If you have an older fridge with no temperature display, then this project is for you! If the fridge ever stops working properly, it will warn you before your food melts or freezes.</p>
+                        <p>I built a simple program using Arduino, C++, and Adafruit.io. It connects to a circuit with a sensor, which detects if a fridge has gone above or below the ideal temperature. If the fridge temperature goes above 7 degrees Celcius, an LED light on the circuit blinks. If it goes below -1 degree Celcius, the LED light is solid. Otherwise, in ideal conditions, the LED is off.</p>
+                        <a href="https://github.com/emmajonas/fridge-sensor" target="_blank"><img src="pics/sensorpic.jpg" alt="fridge sensor"></a>
+                    </div>
+                    
+                    <div class="project">
+                        <h4>DVD Screen</h4>
+                        <p>A re-creation of the famous DVD screensaver using Processing. The "objective" is to see how long it takes until the DVD icon perfectly hits the corner of the screen. This is a classic way to pass time while reminiscing about your childhood.
+                        </p>
+                        <a href="https://github.com/emmajonas/dvd-screen" target="_blank"><img src="pics/dvdscreen.gif" alt="dvd screen"></a>
+                    </div>
+                    
+                    <div class="project">
+                        <h4>Ball-Paddle Game</h4>
+                        <p>A simple game using Processing where the objective is to see how many times you can hit the ball off the paddle before missing.
+                        </p>
+                        <a href="https://github.com/emmajonas/ball-paddle-game" target="_blank"><img src="pics/ballgame.png" alt="ball paddle game"></a>
+                    </div>
+                </div>
+            </div>
+        <footer>
+            <div class="links">
+                <a href="resume/EmmaJonasResume.pdf" target="_blank">Resume</a>
+                <a href="mailto:enjonas@hotmail.com">Email</a>
+                <a href="http://linkedin.com/in/emmajonas10" target="_blank">LinkedIn</a>
+                <a href="http://github.com/emmajonas" target="_blank">Github</a>
+                <a href="http://instagram.com/e_jonas" target="_blank">Instagram</a>
+            </div>
+            <p>&copy; Emma Jonas 2021</p>
+        </footer>
+    </body>
+</html>

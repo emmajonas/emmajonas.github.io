@@ -1,0 +1,114 @@
+:root {
+    --black: #171717;
+    --grey: #363636;
+    --green: #6fab8a;
+    --red: #d47866;
+    --deepred: #ab4430;
+    --lightgrey: #ababab;
+}
+
+body {
+    background-color: var(--black);
+    background-image: url(../background/transparent.png),
+        url(../background/transparent_rotate.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: right top, left bottom;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.landing {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main a {
+    color: white;
+    text-decoration: none;
+}
+
+.box {
+  display: flex;
+  box-shadow: 30px -30px var(--red);
+  border-radius: 20px;
+}
+
+.side {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  padding: 10px;
+  background-color: var(--green);
+  border-radius: 0px 20px 20px 0px;
+}
+
+.side-label {
+  text-transform: uppercase;
+}
+
+.main {
+  background-color: var(--grey);
+  color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 0px 20px 20px 0px
+}
+
+.main h1 {
+    font-size: 50px
+}
+
+#myNav {
+  text-align: center;
+    margin: 10px;
+}
+
+#myNav a{
+  display: inline-block;
+  text-transform: uppercase;
+  border: none;
+  margin: 10px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    #myNav a {
+        display: block;
+        font-size: 25px;
+    }
+}
+
+.links {
+    text-align: center;
+    display: block;
+    margin: 10px;
+}
+
+footer a {
+    transition: 0.3s ease;
+}
+
+footer a:hover, footer a:focus {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease;
+}
+
+footer a, footer p {
+    color: var(--lightgrey);
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+footer {
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}

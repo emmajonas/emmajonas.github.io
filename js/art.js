@@ -33,10 +33,11 @@ var mood = ["mood", "Mood", "2017", "Acrylic on Canvas"];
 var yuna = ["yuna", "Yuna", "2017", "Charcoal on Brown Paper"];
 var kiosk = ["kiosk", "The Forbidden Kiosk", "2017", "Oil on Canvas Board"];
 var grandparents = ["grandparents", "Grandparents", "2017", "Oil on Canvas"];
+var owl = ["owl", "Snowy Owl", "2018", "Oil on Canvas Board"];
 var untitled2 = ["untitled2", "Untitled #2", "2020", "Oil on Paper"];
 var kobe = ["kobe", "Kobe", "2020", "Acrylic on Plastic (Laptop Case)"];
 
-var art = [cactus, sky, elephants, enjoydark, earlyshift, to, orchid, nonocromatic, selfportrait1, nature, drake, voice, grapes, women, michaelb, polarbear, reconciliation, storm, untitled, coke, abstract3, abstract2, abstract1, selfportrait2, prayinghands, shoes, parooster, selfportrait3, nudes, rgb, balls, mood, yuna, kiosk, grandparents, untitled2, kobe];
+var art = [cactus, sky, elephants, enjoydark, earlyshift, to, orchid, nonocromatic, selfportrait1, nature, drake, voice, grapes, women, michaelb, polarbear, reconciliation, storm, untitled, coke, abstract3, abstract2, abstract1, selfportrait2, prayinghands, shoes, parooster, selfportrait3, nudes, rgb, balls, mood, yuna, kiosk, grandparents, owl, untitled2, kobe];
 
 window.onload = function() {
     var doc = document.getElementById("art");

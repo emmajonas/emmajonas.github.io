@@ -3,7 +3,7 @@
 }
 
 .content h3 {
-    margin: 10px 0px 20px 0px;
+    margin: 10px 0px 30px 0px;
 }
 
 .project-container {
@@ -28,4 +28,10 @@
     box-shadow: 1px 1px 15px;
     transition: 0.3s ease;
     color: var(--lightgrey);
+}
+
+@media screen and (max-width: 800px) {
+    .project {
+        padding: 20px 0px 10px 0px;
+    }
 }

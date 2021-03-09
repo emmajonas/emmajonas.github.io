@@ -52,7 +52,8 @@
 }
 
 .content ul {
-    list-style-type: square;
+    list-style-type: none;
+    font-size: 18px;
 }
 
 .content ul li {

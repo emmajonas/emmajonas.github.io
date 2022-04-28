@@ -1,3 +1,3 @@
 # emmajonas.github.io
 
-my updated personal website as of 2021
+my updated personal website as of 2022
